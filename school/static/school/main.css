@@ -1,0 +1,23 @@
+ul {
+    margin: 2em 0 3em 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sloupce stejné šířky */
+    gap: 1em;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a {
+    display: flex;
+    gap: 1em;
+}
+
+ul li a img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
